@@ -1,0 +1,5 @@
+num=(1,2,3,4,5,6,7) 
+print("list: ",num)
+result=map(lambda x:x+x+x,num) 
+print("triple all numbers of a given list of integers:- ")
+print(list(result))
